@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 from multiprocessing import Pool
 __out_dir__ = './new_csv'
-COLUMNS_INDEX_LIST = list(range(0,3))+list(range(5,37))+list(range(65,69))+list(range(74,78))
+COLUMNS_INDEX_LIST = list(range(0, 3))+list(range(5, 37))+list(range(65, 69))+list(range(74, 78))
 
 
 def process_csv(name):
